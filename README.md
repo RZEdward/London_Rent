@@ -4,7 +4,7 @@ General Steps:
 
 - Develop a Python script (scraper.py) that pulls all of the listing prices from each borough on spareroom.com
 - Store the statistical data (mean, max, min, median, stdev, count etc) in borough_stats.csv
-- Store all of the listings in prices.csv - this is key - need to reduce dimensionality + allow for a join to other csv's so I can make use of Tableau's boxplot chart feature later
+- Store all of the listings in prices.csv - this is key - need to do some data melting/unpivoting + allow for a join to other csv's so I can make use of Tableau's boxplot chart feature later
 - Create an Excel workbook
 - Import borough_stats.csv to Excel
 - While in Excel, add in more columns for population, area, green area, pubs, pub density etc etc drawn from many different sources - most of this data was manually typed in (just made sense in this instance)
